@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    background: #d9d9d9;
+    font-family: Arial;
+}
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1200px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.left-con {
+    border-right: 1px solid #ccc;
+}
+.gallery {
+    background: url("./assets/gallery.png") no-repeat;
+    width: 570px;
+    height: 570px;
+}
+.download {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.app-store {
+    background: url("./assets/app-store.png") no-repeat;
+    width: 154px;
+    height: 54px;
+}
+.google-play {
+    background: url("./assets/google-play.png") no-repeat;
+    width: 187px;
+    height: 55px;
+}
+.form {
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.title {
+    color: #069034;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.label {
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.input-con {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    padding-left: 12px;
+    overflow: hidden;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    background: #d0831c;
+}
+.password-icon {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+}
+.divider {
+    width: 1px;
+    height: 24px;
+    background: #ccc;
+    margin-left: 12px;
+}
+.input {
+    width: 400px;
+    height: 40px;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+}
+.remember {
+    display: flex;
+    align-items: center;
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.help-con {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forget {
+    text-decoration: underline;
+    color: #333;
+}
+.button {
+    display: block;
+    background: #069034;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.register-con {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.register-link {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #069034;
+}
